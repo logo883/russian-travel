@@ -1,0 +1,19 @@
+.intro {
+    width: 80%;
+    margin: 0 0 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .intro {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 425px) {
+    .intro {
+      margin-bottom: 64px; 
+    }
+  }
