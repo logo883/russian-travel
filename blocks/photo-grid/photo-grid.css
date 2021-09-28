@@ -1,4 +1,16 @@
 .photo-grid {
     margin-bottom: 92px;
-    width: 90%;
+    width: 92.5%;
+}
+
+@media screen and (max-width: 999px) {
+    .photo-grid {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .photo-grid {
+        margin-bottom: 64px;
+    }
 }
