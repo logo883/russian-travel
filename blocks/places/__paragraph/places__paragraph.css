@@ -10,12 +10,18 @@
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 768px) {  /* Этого и других комментариев(со второй проверки) не было при первой проверке. */
+    .places__paragraph {                 /*  Если я всё правильно помню, ревьювер не может добавлять, то что он не упоминал ранее */
+        line-height: 26.08px;
+        font-size: 16px;
+    }
+}
+
+
 @media screen and (min-width: 320px) and (max-width: 680px) {
     .places__paragraph {
         margin: 0 auto 25px;
-        width: 90%;
-        line-height: 26.08px;
-        font-size: 16px;
+        width: 90%;       
     }
   
 }
